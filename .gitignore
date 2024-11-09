@@ -1,0 +1,58 @@
+# Haskell Stack
+.stack-work/
+stack.yaml.lock
+
+# Hakyll
+_site/
+_cache/
+.hakyll-cache/
+dist/
+dist-*/
+
+# Cabal
+.cabal-sandbox/
+cabal.sandbox.config
+cabal.project.local
+.ghc.environment.*
+
+# Haskell
+*.hi
+*.o
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+*.prof
+*.aux
+*.hp
+*.eventlog
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Binary files
+site
+site.hi
+site.o
+
+# Build artifacts
+result
+result-*
+
+# Local development
+.env
+.envrc
+.direnv/
+
+# Watch script generated files
+.watch-pid
+
+# Temporary files
+*.log
+*.tmp
+*.temp
